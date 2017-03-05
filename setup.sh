@@ -5,7 +5,7 @@ YOCTO_VERSION=morty
 
 git clone -b ${YOCTO_VERSION} git://git.yoctoproject.org/poky.git
 
-ln -s yocto-build poky/build
+ln -s `pwd`/yocto-build poky/build
 
 cd poky
 
